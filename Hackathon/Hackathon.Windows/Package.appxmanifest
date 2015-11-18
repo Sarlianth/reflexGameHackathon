@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="8787Sarlianth.ReflexGame" Publisher="CN=657E235F-92A1-411B-849B-CB2048E18788" Version="1.1.0.1" />
+  <Identity Name="8787Sarlianth.ReflexGame" Publisher="CN=657E235F-92A1-411B-849B-CB2048E18788" Version="1.1.0.4" />
   <Properties>
     <DisplayName>ReflexGame</DisplayName>
     <PublisherDisplayName>Sarlianth</PublisherDisplayName>

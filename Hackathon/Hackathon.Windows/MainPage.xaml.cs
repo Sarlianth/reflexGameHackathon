@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Adrian Sypos
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -41,6 +43,7 @@ namespace Hackathon
         public int wrongCnt = 0;
         public int score = 0;
         #endregion
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -240,12 +243,12 @@ namespace Hackathon
             if (redClicked == 1 && redCorrect == 1 || blueClicked == 1 && blueCorrect == 1 || greenClicked == 1 && greenCorrect == 1)
             {
                 if (moveTimerTick <= 5){
-                    moveTimerTickTxtBlock.Text = "+30ms!";
-                    gameTimerTick += 30;
+                    moveTimerTickTxtBlock.Text = "+50ms!";
+                    gameTimerTick += 50;
                 }
                 else if (moveTimerTick <= 15){
-                    moveTimerTickTxtBlock.Text = "+5ms!";
-                    gameTimerTick += 5;
+                    moveTimerTickTxtBlock.Text = "+15ms!";
+                    gameTimerTick += 15;
                 }
                 else {
                     moveTimerTickTxtBlock.Text = "";
